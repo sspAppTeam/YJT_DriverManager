@@ -1,0 +1,14 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'YJT_DriverManager_Example' do
+  pod 'YJT_DriverManager', :path => '../'
+
+  target 'YJT_DriverManager_Tests' do
+    inherit! :search_paths
+
+    pod 'Kiwi'
+    pod 'FBSnapshotTestCase'
+  end
+end
