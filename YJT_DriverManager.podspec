@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YJT_DriverManager'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = '驾驶员信息'
 
 # This description is used to generate tags and improve search results.
@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.author           = { 'SSPSource' => '2316585240@qq.com' }
   s.source           = { :git => 'https://github.com/sspAppTeam/YJT_DriverManager.git', :tag => s.version.to_s }
 #  https://github.com/sspAppTeam/SSSpecs.git
-  s.source           = { :git => 'https://github.com/sspAppTeam/SSSpecs.git', :tag => s.version.to_s }
+#  s.source           = { :git => 'https://github.com/sspAppTeam/SSSpecs.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
