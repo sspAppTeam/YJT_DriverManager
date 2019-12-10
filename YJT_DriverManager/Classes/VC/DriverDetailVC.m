@@ -7,7 +7,7 @@
 //
 
 #import "DriverDetailVC.h"
-
+#import <SSNetWorkOC/SSNetWork.h>
 @interface DriverDetailVC ()
 
 @end
@@ -17,6 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor=[UIColor whiteColor];
+    
 }
 
 

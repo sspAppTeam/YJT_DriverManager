@@ -7,6 +7,8 @@
 
 #import "DriverInfoView.h"
 #import "Masonry.h"
+
+
 @interface DriverInfoView()
 @property(nonatomic,strong)UIButton *leftBtn;
 @property(nonatomic,strong)UILabel *numberLab;

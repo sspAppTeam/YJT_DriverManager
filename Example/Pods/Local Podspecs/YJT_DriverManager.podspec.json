@@ -1,9 +1,9 @@
 {
   "name": "YJT_DriverManager",
   "version": "0.1.0",
-  "summary": "A short description of YJT_DriverManager.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/SSPSource/YJT_DriverManager",
+  "summary": "驾驶员信息",
+  "description": "业务组件化-驾驶员业务",
+  "homepage": "https://github.com/sspAppTeam/YJT_DriverManager",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,19 @@
     "SSPSource": "2316585240@qq.com"
   },
   "source": {
-    "git": "https://github.com/SSPSource/YJT_DriverManager.git",
+    "git": "https://github.com/sspAppTeam/YJT_DriverManager.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "YJT_DriverManager/Classes/**/*"
+  "source_files": "YJT_DriverManager/Classes/**/*",
+  "dependencies": {
+    "Masonry": [
+
+    ],
+    "SSNetworkOC": [
+
+    ]
+  }
 }

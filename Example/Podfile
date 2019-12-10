@@ -1,6 +1,9 @@
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/sspAppTeam/SSSpecs.git'
 use_frameworks!
 
-platform :ios, '8.0'
+platform :ios, '9.0'
+inhibit_all_warnings!
 
 target 'YJT_DriverManager_Example' do
   pod 'YJT_DriverManager', :path => '../'
@@ -10,5 +13,6 @@ target 'YJT_DriverManager_Example' do
 
     pod 'Kiwi'
     pod 'FBSnapshotTestCase'
+    pod 'SSNetworkOC'
   end
 end

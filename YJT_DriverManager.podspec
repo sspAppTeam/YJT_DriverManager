@@ -26,6 +26,8 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'SSPSource' => '2316585240@qq.com' }
   s.source           = { :git => 'https://github.com/sspAppTeam/YJT_DriverManager.git', :tag => s.version.to_s }
+#  https://github.com/sspAppTeam/SSSpecs.git
+  s.source           = { :git => 'https://github.com/sspAppTeam/SSSpecs.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -38,5 +40,8 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
+#
    s.dependency 'Masonry'
+   s.dependency 'SSNetworkOC'
+#   ,:git => 'https://github.com/sspAppTeam/SSNetworkOC.git'
 end
