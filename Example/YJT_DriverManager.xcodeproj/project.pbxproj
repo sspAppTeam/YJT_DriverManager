@@ -62,9 +62,9 @@
 		791BAA678B1DEBA0263E50FE /* Pods_YJT_DriverManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YJT_DriverManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B43C0F0E101D1618D1226437 /* Pods-YJT_DriverManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJT_DriverManager_Tests.release.xcconfig"; path = "Target Support Files/Pods-YJT_DriverManager_Tests/Pods-YJT_DriverManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C8156DD390A0A939C270283B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		D3ADF28CBC51B9E20406ED11 /* YJT_DriverManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YJT_DriverManager.podspec; path = ../YJT_DriverManager.podspec; sourceTree = "<group>"; };
-		D741F7A353718664F42941DF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C8156DD390A0A939C270283B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D3ADF28CBC51B9E20406ED11 /* YJT_DriverManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YJT_DriverManager.podspec; path = ../YJT_DriverManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D741F7A353718664F42941DF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		DD69415C3EE132BD0A803F38 /* Pods-YJT_DriverManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJT_DriverManager_Example.release.xcconfig"; path = "Target Support Files/Pods-YJT_DriverManager_Example/Pods-YJT_DriverManager_Example.release.xcconfig"; sourceTree = "<group>"; };
 		EFE547DFED2C7C8287909BE4 /* Pods-YJT_DriverManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJT_DriverManager_Tests.debug.xcconfig"; path = "Target Support Files/Pods-YJT_DriverManager_Tests/Pods-YJT_DriverManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,7 +103,6 @@
 				EFE547DFED2C7C8287909BE4 /* Pods-YJT_DriverManager_Tests.debug.xcconfig */,
 				B43C0F0E101D1618D1226437 /* Pods-YJT_DriverManager_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

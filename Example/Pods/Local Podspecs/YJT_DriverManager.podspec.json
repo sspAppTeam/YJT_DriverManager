@@ -1,0 +1,22 @@
+{
+  "name": "YJT_DriverManager",
+  "version": "0.1.0",
+  "summary": "A short description of YJT_DriverManager.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/SSPSource/YJT_DriverManager",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "SSPSource": "2316585240@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/SSPSource/YJT_DriverManager.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "YJT_DriverManager/Classes/**/*"
+}

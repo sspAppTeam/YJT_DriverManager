@@ -1,0 +1,6 @@
+framework module YJT_DriverManager {
+  umbrella header "YJT_DriverManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

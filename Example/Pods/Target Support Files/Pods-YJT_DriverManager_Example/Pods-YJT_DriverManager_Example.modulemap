@@ -1,0 +1,6 @@
+framework module Pods_YJT_DriverManager_Example {
+  umbrella header "Pods-YJT_DriverManager_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
